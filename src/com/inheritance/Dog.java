@@ -1,5 +1,5 @@
 package com.inheritance;
-
+// single inheritance
 public class Dog extends Animal {
     // defining specific dog characteristics
     private int eyes;
@@ -51,4 +51,5 @@ public class Dog extends Animal {
         moveLegs(speed);
         super.move(speed); // calling original non-overridden method
     }
+
 }

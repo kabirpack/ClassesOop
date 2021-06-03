@@ -68,7 +68,7 @@ class Forgetable extends Movie{
 }
 
 // main method
-public class polymorphismMain {
+public class PolymorphismMain {
     public static void main(String[] args){
         for(int i=1; i<11; i++) {
             Movie movie = randomMovie();

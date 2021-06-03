@@ -20,4 +20,12 @@ public class Car {
     public String getModel(){
         return this.model;
     }
+    // overloading
+    public void serviceCar(String service1, String service2){
+        System.out.println("This car is done with " + service1 + ", " + service2 + " services");
+    }
+
+    public void serviceCar(String service1, String service2, String service3){
+        System.out.println("This car is done with " + service1 + ", " + service2 + ", " + service3 +  " services");
+    }
 }

@@ -6,5 +6,7 @@ public class ClassMain {
         Car holden = new Car();
         porsche.setModel("Carrera");
         System.out.println("Model is " + porsche.getModel());
+        porsche.serviceCar("waterwash","oilwash");
+        porsche.serviceCar("brake check", "Air Check", "Tyrechange");
     }
 }

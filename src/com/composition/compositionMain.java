@@ -1,6 +1,6 @@
 package com.composition;
 
-public class compositionMain {
+public class CompositionMain {
     public static void main(String[] args){
         Dimensions dimensions = new Dimensions(20,20,5);
         Case theCase = new Case("110A", "Hp", "240", dimensions);

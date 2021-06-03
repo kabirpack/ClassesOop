@@ -1,6 +1,6 @@
 package com.classIntro;
 
-public class classMain {
+public class ClassMain {
     public static void main(String[] args){
         Car porsche = new Car();
         Car holden = new Car();

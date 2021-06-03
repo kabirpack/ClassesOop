@@ -1,6 +1,6 @@
 package com.constructors;
 
-public class constructorMain {
+public class ConstructorMain {
 
     public static void main(String[] args){
 

@@ -1,5 +1,5 @@
 package com.inheritance;
-// multiple inheritance
+// multi level inheritance
 public class GrayWolf extends Dog{
     private String huntingAbility;
 

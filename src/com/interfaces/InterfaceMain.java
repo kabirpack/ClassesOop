@@ -1,9 +1,6 @@
 package com.interfaces;
 
 interface CarDesign{
-    String model ="SUV";
-    String color = "black";
-    String brand = "Audi";
     //outline of car
     void startUp();
     void accelerate();
@@ -12,8 +9,10 @@ interface CarDesign{
 public class InterfaceMain implements CarDesign {
 
     public static void main(String[] args){
+        String model = "SUV";
+        String color = "black";
+        String brand = "Audi";
         System.out.println(model + "," + color + "," + brand);
-
         InterfaceMain car = new InterfaceMain();
         car.startUp();
         car.accelerate();
